@@ -19,7 +19,7 @@ import com.redhat.developer.balloon.types.Config;
 import com.redhat.developer.balloon.types.ConfigMsgType;
 import com.redhat.developer.balloon.types.Points;
 
-// @RolesAllowed("admin")
+@RolesAllowed("admin")
 @Path("/a")
 @ApplicationScoped
 public class GameAdminResource {

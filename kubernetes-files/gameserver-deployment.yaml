@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
         - name: gameserver
-          image: quay.io/rhdevelopers/balloon-game-server:v0.1.0
+          image: quay.io/rhdevelopers/balloon-game-server
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
           env:
